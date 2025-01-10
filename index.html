@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: radial-gradient(#ff7e5f, #feb47b);
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+        #jokecontent, #joke {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #ff7e5f;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        #btn:hover {
+            background-color: #ff7e5f;
+            color: #fff;
+        }
+        #img {
+            margin-top: 20px;
+            width: 500px;
+            border-radius: 10px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wanna hear something funny!</h1>
+    <button id="btn">YES</button>
+    <div id="jokecontent"></div>
+    <div id="joke"></div>
+    <img src="smile.gif" alt="smile" id="img" >
+</body>
+</html>
